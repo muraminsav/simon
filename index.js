@@ -22,8 +22,6 @@ function gotData(data) {
   var keys = Object.keys(scores);
 
   function myFunction() {
-    console.log(scores[keys[0]].score);
-
     keys.sort(function (a, b) {
       return scores[b].score - scores[a].score;
     });
@@ -55,7 +53,6 @@ const blink = function (num) {
   setTimeout(function () {
     $(".sq")[num].classList.remove(color(num));
   }, 150);
-  console.log(num);
 };
 
 const color = function (num) {
@@ -83,7 +80,6 @@ const paternLight = function () {
   if (patern.length <= ind) {
     return (ind = 0);
   }
-  console.log(`patern:${patern}  index:${ind}  ${patern[ind]}`);
   setTimeout(function () {
     ind += 1;
     blink(patern[ind - 1]);
