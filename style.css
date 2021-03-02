@@ -1,0 +1,92 @@
+html{margin:0; padding:0}
+h1{
+  width: 400px;
+  padding-top: 52px;
+  margin: auto;
+}
+
+
+#name{height: 40px;
+  font-family:  'Press Start 2P', cursive;
+  width: 150px;
+  margin:auto;
+}
+.submit{
+  font-family:  'Press Start 2P', cursive;
+  padding: 0;
+    margin: 8px auto;
+    height: 58px;
+    width: 164px;
+    border-width: 2px;
+    border-radius: 9%
+}
+body{
+  font-family:  'Press Start 2P', cursive;
+  background-color: rgb(18, 18, 66);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.822);
+}
+button{
+  outline: none;
+  margin:0;
+  height: 180px;
+  width: 180px;
+  border:solid;
+  border-width: thick; 
+  box-shadow: inset  0 0 14px 4px black;
+}
+
+li{margin:10px 11%}
+.inputData{
+  position: absolute;
+  width: 95%;
+  margin: auto;
+}
+.input{width: 337px;
+  margin: auto;
+  position: relative;
+  top: 33px;}
+
+.scoretable{
+  
+  display: none;
+  text-align: center;
+  margin: -5px auto;
+  height: 428px;
+  background-color: #a83434e6;
+  position: absolute;
+  width: 373px;
+}
+.container{
+  position: relative;
+  width: 400px;
+  margin: 175px auto;
+}
+.green{
+  background-color: rgb(7, 189, 7);
+  border-radius: 150% 20% 50% 20% ;
+}
+.red{
+  background-color: rgb(253, 24, 24);
+  border-radius: 20% 150% 20% 50%
+}
+.yellow{
+  background-color: rgb(255, 255, 28);
+  border-radius: 20% 50% 20% 150%;
+}
+.blue{
+  background-color: rgb(47, 47, 252);
+  border-radius: 50% 20% 150% 20%;
+}
+.dark_green{
+  background-color: rgb(2, 48, 2);
+}
+.dark_red{
+  background-color: rgb(73, 10, 10);
+}
+.dark_yellow{
+  background-color: rgb(71, 71, 4);
+}
+.dark_blue{
+  background-color: rgb(7, 7, 95);
+}
