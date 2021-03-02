@@ -113,6 +113,7 @@ $("h1").bind("click", function () {
   $("body").css("background-color", "rgb(18, 18, 66)");
   $("h1").hide().text(`Level: ${level}`).fadeIn(300);
   $(".scoretable").hide();
+  $(".inputData").hide();
   patern = [];
   paternGen(level);
   paternLight();
